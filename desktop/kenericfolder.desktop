@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+Name=Folder only one image (Keneric)
+X-KDE-ServiceTypes=ThumbCreator
+MimeType=inode/directory;
+X-KDE-Library=keneric
+CacheThumbnail=true

@@ -26,3 +26,15 @@ mkdir builddir
 make
 sudo make install
 ```
+
+## How to use
+
+To use the Keneric thumbnailer will need:
+
+- Shared library file: `keneric.so`
+- Desktop file for the thumbnailer. In this case: `kenricfolder.desktop`
+  - Paste this in location given by `kf5-config --path services`
+- Exeutable script file: `stripPicture`
+  - Paste this in the location specified int the `$PATH` variable
+  - Modify the script for your own use. My script generate `inode/directory` mime type
+    thumbnails you can generate for other mime type too.
